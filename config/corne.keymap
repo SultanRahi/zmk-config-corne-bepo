@@ -29,10 +29,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp B       &kp W           &kp P               &kp O               &kp SLASH    &kp EXCLAMATION  &kp V              &kp D        &kp L            &kp J       &none
-&none  &kp A       &kp U           &kp I               &kp E               &kp COMMA    &kp C            &kp T              &kp S        &kp R            &kp N       &none
-&none  &mt LGUI Z  &mt LEFT_ALT Y  &mt LEFT_CONTROL X  &mt LEFT_SHIFT DOT  &kp K        &kp M            &mt RIGHT_SHIFT Q  &mt RCTRL G  &mt RIGHT_ALT H  &mt RGUI F  &none
-                                   &kp DELETE          &lt 1 TAB           &kp SPACE    &kp BACKSPACE    &lt 2 ENTER        &kp ESC
+&none  &kp Q                  &kp RIGHT_BRACKET  &kp E               &kp R               &kp SLASH    &kp Y          &kp U              &kp I            &kp O                 &kp P           &none
+&none  &kp A                  &kp S              &kp D               &kp F               &kp COMMA    &kp H          &kp J              &kp K            &kp L                 &kp SEMICOLON   &none
+&none  &mt LGUI LEFT_BRACKET  &mt LEFT_ALT X     &mt LEFT_CONTROL C  &mt LEFT_SHIFT DOT  &kp B        &kp SQT        &mt RIGHT_SHIFT M  &mt RCTRL COMMA  &mt RIGHT_ALT PERIOD  &mt RGUI SLASH  &none
+                                                 &kp DELETE          &lt 1 TAB           &kp SPACE    &kp BACKSPACE  &lt 2 ENTER        &kp ESC
             >;
         };
 
@@ -45,7 +45,7 @@
 
             bindings = <
 &none  &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp PG_UP      &kp HOME         &kp UP_ARROW  &kp END        &kp K_SCROLL_UP    &none
-&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp PAGE_DOWN  &kp DOWN         &kp UP        &kp RIGHT      &kp K_SCROLL_DOWN  &none
+&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp PAGE_DOWN  &kp LEFT_ARROW   &kp UP        &kp RIGHT      &kp K_SCROLL_DOWN  &none
 &none  &trans        &trans        &trans        &trans        &trans          &trans         &kp RIGHT_SHIFT  &kp RCTRL     &kp RIGHT_ALT  &trans             &none
                                    &trans        &trans        &trans          &trans         &trans           &trans
             >;
@@ -59,10 +59,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &none
-&none  &trans    &trans  &trans    &trans    &trans       &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &none
-&none  &trans    &trans  &trans    &trans    &trans       &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &none
-                         &trans    &trans    &trans       &trans     &trans     &trans
+&none  &kp EXCL      &kp AT           &kp HASH       &kp DLLR      &kp PRCNT         &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &none
+&none  &kp TILDE     &kp C_AC_SEARCH  &kp C_AC_COPY  &kp C_AC_CUT  &kp C_AC_PASTE    &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &none
+&none  &kp CAPSLOCK  &trans           &trans         &trans        &trans            &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &none
+                                      &trans         &trans        &trans            &trans     &trans     &trans
             >;
         };
 
