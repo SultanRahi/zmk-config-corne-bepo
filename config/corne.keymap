@@ -43,9 +43,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp RA(Q)  &kp W      &kp RA(E)  &kp RA(R)  &kp T            &kp PG_UP      &kp HOME         &kp UP_ARROW  &kp END        &kp K_SCROLL_UP    &none
-&none  &kp RA(A)  &kp RA(S)  &kp RA(D)  &kp RA(F)  &kp GRAVE        &kp PAGE_DOWN  &kp LEFT_ARROW   &kp UP        &kp RIGHT      &kp K_SCROLL_DOWN  &none
-&none  &kp Z      &trans     &trans     &trans     &kp BACKSLASH    &kp CAPSLOCK   &kp RIGHT_SHIFT  &kp RCTRL     &kp RIGHT_ALT  &kp PRINTSCREEN    &none
+&none  &kp RA(Q)  &kp W      &kp RA(E)  &kp RA(R)  &kp T            &kp PG_UP      &kp HOME         &kp UP_ARROW    &kp END        &kp K_SCROLL_UP    &none
+&none  &kp RA(A)  &kp RA(S)  &kp RA(D)  &kp RA(F)  &kp GRAVE        &kp PAGE_DOWN  &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT      &kp K_SCROLL_DOWN  &none
+&none  &kp Z      &trans     &trans     &trans     &kp BACKSLASH    &kp CAPSLOCK   &kp RIGHT_SHIFT  &kp RCTRL       &kp RIGHT_ALT  &kp PRINTSCREEN    &none
                              &trans     &trans     &trans           &trans         &trans           &trans
             >;
         };
