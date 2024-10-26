@@ -28,10 +28,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp Q                  &kp RIGHT_BRACKET  &kp E               &kp R             &kp N        &kp Y          &kp U              &kp I            &kp O                 &kp P           &none
-&none  &kp A                  &kp S              &kp D               &kp F             &kp G        &kp H          &kp J              &kp K            &kp L                 &kp SEMICOLON   &none
-&none  &mt LGUI LEFT_BRACKET  &mt LEFT_ALT X     &mt LEFT_CONTROL C  &mt LEFT_SHIFT V  &kp B        &kp SQT        &mt RIGHT_SHIFT M  &mt RCTRL COMMA  &mt RIGHT_ALT PERIOD  &mt LGUI SLASH  &none
-                                                 &kp DELETE          &lt 1 TAB         &kp SPACE    &kp BACKSPACE  &lt 2 ENTER        &kp ESC
+&none  &kp Q                  &kp RIGHT_BRACKET  &kp E               &kp R             &kp N              &kp Y               &kp U              &kp I            &kp O                &kp P           &none
+&none  &kp A                  &kp S              &kp D               &kp F             &kp G              &kp H               &kp J              &kp K            &kp L                &kp SEMICOLON   &none
+&none  &mt LGUI LEFT_BRACKET  &mt LEFT_ALT X     &mt LEFT_CONTROL C  &mt LEFT_SHIFT V  &mt RIGHT_ALT B    &mt RIGHT_ALT APOS  &mt RIGHT_SHIFT M  &mt RCTRL COMMA  &mt LEFT_ALT PERIOD  &mt LGUI SLASH  &none
+                                                 &kp DELETE          &lt 1 TAB         &kp SPACE          &kp BACKSPACE       &lt 2 ENTER        &kp ESC
             >;
         };
 
@@ -43,10 +43,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp RA(Q)  &kp W      &kp RA(E)  &kp RA(R)  &kp T            &kp PG_UP      &kp HOME         &kp UP_ARROW    &kp END        &kp K_SCROLL_UP    &none
-&none  &kp RA(A)  &kp RA(S)  &kp RA(D)  &kp RA(F)  &kp GRAVE        &kp PAGE_DOWN  &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT      &kp K_SCROLL_DOWN  &none
-&none  &kp Z      &trans     &trans     &trans     &kp BACKSLASH    &kp CAPSLOCK   &kp RIGHT_SHIFT  &kp RCTRL       &kp RIGHT_ALT  &kp PRINTSCREEN    &none
-                             &trans     &trans     &trans           &trans         &trans           &trans
+&none  &kp RA(Q)  &kp W      &kp RA(E)  &kp RA(R)  &kp T            &kp PG_UP      &kp HOME        &kp UP_ARROW    &kp END    &kp K_SCROLL_UP    &none
+&none  &kp RA(A)  &kp RA(S)  &kp RA(D)  &kp RA(F)  &kp GRAVE        &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp K_SCROLL_DOWN  &none
+&none  &kp Z      &trans     &trans     &trans     &kp BACKSLASH    &kp CAPSLOCK   &trans          &trans          &trans     &kp PRINTSCREEN    &none
+                             &trans     &trans     &trans           &trans         &trans          &trans
             >;
         };
 
@@ -67,9 +67,9 @@
 
         layer_3 {
             bindings = <
-&none  &kp F1            &kp F2            &kp F3            &kp F4            &kp F5              &kp F6            &kp F7            &kp F8             &kp F9         &kp F10           &none
-&none  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)    &kp LS(NUMBER_6)  &kp LS(NUMBER_7)  &kp LS(NUMBER_8)   &kp LS(N9)     &kp LS(NUMBER_0)  &none
-&none  &kp F11           &kp LEFT_ALT      &kp LCTRL         &kp LEFT_SHIFT    &kp G               &kp V             &kp RIGHT_SHIFT   &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp F12           &none
+&none  &kp F1            &kp F2            &kp F3            &kp F4            &kp F5              &kp F6            &kp F7            &kp F8            &kp F9      &kp F10           &none
+&none  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)    &kp LS(NUMBER_6)  &kp LS(NUMBER_7)  &kp LS(NUMBER_8)  &kp LS(N9)  &kp LS(NUMBER_0)  &none
+&none  &kp F11           &trans            &trans            &trans            &kp G               &kp V             &trans            &trans            &trans      &kp F12           &none
                                            &trans            &trans            &trans              &trans            &trans            &trans
             >;
         };
