@@ -9,7 +9,7 @@ I made some modifications :
 - On the third layer, the numeric one, I added a dot and a comma, for easy access.
 - I put altgr on the right, as the original keyboard didn’t have one. Which means that now, alt+y is unavailable. Altgr+h too. Don’t know if it’s a problem for anybody. Maybe there’s a way to make them available, but I don’t have a use for them.
 - There are two possible apostrophes : ' and ’.
-- The compose key has to be chosen as the left windows key. It can be access by holding for a short time Z or F.
+- The compose key has to be chosen as the left windows key. It can be accessed by holding for a short time Z or F.
 
 To make it work, you have, of course, to choose the bépo layout (the keymap editor, which is really useful, will not give you the proper letters).
 
