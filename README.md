@@ -7,7 +7,7 @@ For more information on the layout, you can go directly to [the qmw page](https:
 I made some modifications :
 - A capslock key and a printscreen key have been added.
 - On the third layer, the numeric one, I added a dot and a comma, for easy access.
-- I put altgr on the right, as the original keyboard didn’t have one. Which means that now, alt+y is unavailable. Altgr+h too. Don’t know if it’s a problem for anybody. Maybe there’s a way to make them available, but I don’t have a use for them.
+- I added altgr on the left and on the right, as the original keyboard didn’t have one.
 - There are two possible apostrophes : ' and ’.
 - The compose key has to be chosen as the left windows key. It can be accessed by holding for a short time Z or F.
 
@@ -15,4 +15,4 @@ To make it work, you have, of course, to choose the bépo layout (the keymap edi
 
 Here is the layout :
 
-![bepo layout](https://github.com/SultanRahi/zmk-config-corne-bepo/blob/master/bepokeymap.svg?raw=true)
+![bepo layout](https://github.com/SultanRahi/zmk-config-corne-bepo/blob/master/bepokeymap.png?raw=true)
