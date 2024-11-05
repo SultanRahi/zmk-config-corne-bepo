@@ -58,10 +58,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp NUMBER_1  &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &kp NUMBER_4      &kp NUMBER_5        &kp NUMBER_6   &kp NUMBER_7  &kp N8     &kp N9     &kp NUMBER_0  &none
-&none  &kp PLUS      &kp RA(X)         &kp RA(C)         &kp RA(NUMBER_4)  &kp RA(NUMBER_5)    &kp RA(B)      &kp MINUS     &kp EQUAL  &kp RA(Z)  &kp TILDE     &none
-&none  &kp RA(Q)     &trans            &trans            &trans            &kp RA(G)           &kp RS(RA(V))  &trans        &trans     &trans     &kp RA(E)     &none
-                                       &trans            &trans            &trans              &trans         &trans        &trans
+&none  &kp NUMBER_1  &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &kp NUMBER_4      &kp NUMBER_5        &kp NUMBER_6      &kp NUMBER_7  &kp N8     &kp N9     &kp NUMBER_0  &none
+&none  &kp PLUS      &kp RA(X)         &kp RA(C)         &kp RA(NUMBER_4)  &kp RA(NUMBER_5)    &kp RA(GRAVE)     &kp MINUS     &kp EQUAL  &kp RA(Z)  &kp TILDE     &none
+&none  &kp NUMBER_2  &trans            &trans            &trans            &kp RA(G)           &kp RA(NUMBER_1)  &trans        &trans     &trans     &kp NUMBER_3  &none
+                                       &trans            &trans            &trans              &trans            &trans        &trans
             >;
         };
 
