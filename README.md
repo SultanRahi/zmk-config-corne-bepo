@@ -9,6 +9,7 @@ I made some modifications :
 - On the third layer, the numeric one, I added a dot and a comma, for easy access.
 - I added altgr on the left and on the right, as the original keyboard didn’t have one.
 - There are two possible apostrophes : ' and ’.
+- I added an en dash and an em dash, as well as French double angle quote, as I’m using them quite often.
 - The compose key has to be chosen as the left windows key. It can be accessed by holding for a short time Z or F.
 
 To make it work, you have, of course, to choose the bépo layout (the keymap editor, which is really useful, will not give you the proper letters).
