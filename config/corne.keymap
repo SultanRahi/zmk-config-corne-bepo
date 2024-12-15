@@ -15,26 +15,6 @@
             bindings = <&mo 3>;
             key-positions = <37 40>;
         };
-
-        UPARROW {
-            bindings = <&kp UP_ARROW>;
-            key-positions = <37 8>;
-        };
-
-        DOWNARROW {
-            bindings = <&kp DOWN_ARROW>;
-            key-positions = <37 20>;
-        };
-
-        LEFTARROW {
-            bindings = <&kp LEFT_ARROW>;
-            key-positions = <37 19>;
-        };
-
-        RIGHTARROW {
-            bindings = <&kp RIGHT_ARROW>;
-            key-positions = <37 21>;
-        };
     };
 
     keymap {
