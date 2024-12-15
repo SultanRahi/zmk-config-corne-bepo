@@ -15,6 +15,26 @@
             bindings = <&tog 3>;
             key-positions = <37 40>;
         };
+
+        UPARROW {
+            bindings = <&kp UP_ARROW>;
+            key-positions = <37 8>;
+        };
+
+        DOWNARROW {
+            bindings = <&kp DOWN_ARROW>;
+            key-positions = <37 20>;
+        };
+
+        LEFTARROW {
+            bindings = <&kp LEFT_ARROW>;
+            key-positions = <37 19>;
+        };
+
+        RIGHTARROW {
+            bindings = <&kp RIGHT_ARROW>;
+            key-positions = <37 21>;
+        };
     };
 
     keymap {
@@ -70,7 +90,7 @@
 &none  &kp F1            &kp F2            &kp F3            &kp F4            &kp F5              &kp F6            &kp F7            &kp F8            &kp F9      &kp F10           &none
 &none  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)    &kp LS(NUMBER_6)  &kp LS(NUMBER_7)  &kp LS(NUMBER_8)  &kp LS(N9)  &kp LS(NUMBER_0)  &none
 &none  &kp F11           &trans            &trans            &trans            &kp G               &kp V             &trans            &trans            &trans      &kp F12           &none
-                                           &trans            &lt 1 TAB         &trans              &trans            &trans            &trans
+                                           &trans            &trans            &trans              &trans            &trans            &trans
             >;
         };
     };
